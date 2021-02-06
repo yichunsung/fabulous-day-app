@@ -1,0 +1,35 @@
+nav.nav-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 3vw;
+  background-color: #2F4F4F;
+}
+
+nav.nav-frame > main.nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 100%;
+  color: #FAEBD7;
+}
+
+nav.nav-frame > main.nav-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85vw;
+  height: 100%;
+  color: #AEC7BB;
+}
+
+main.nav-right > div {
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+main.nav-right > div:hover {
+  color: #FAEBD7;
+}

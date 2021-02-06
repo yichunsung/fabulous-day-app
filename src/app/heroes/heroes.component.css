@@ -1,0 +1,19 @@
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  width: 40vw;
+  height: 30vw;
+  border: 1px solid #666;
+  margin-top: 5vw;
+  padding: 1vw;
+  background-size: cover;
+}
+
+.card-header {
+  width: 40vw;
+  height: 15vw;
+}

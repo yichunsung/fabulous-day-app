@@ -1,1 +1,15 @@
-<p>{{ party }} works!</p>
+<h1> {{ pageName }} </h1>
+<input [(ngModel)]="heroVal" type="text">
+
+<h3>{{ heroVal }}</h3>
+<div class="card" *ngFor="let hero of heroList; index as i" [style.background-image]="'url(' + hero.photo + ')'">
+  <h3>{{ hero.name }}</h3>
+  <p>
+    {{ hero.role }}
+  </p>
+  <input [(ngModel)]="hero.name" placeholder="name"/>
+  <br />
+
+  <br />
+  <button (click)="show(hero)">Show</button>
+</div>
