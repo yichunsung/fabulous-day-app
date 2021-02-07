@@ -61,6 +61,30 @@ export class HeroesComponent implements OnInit {
       role: 'range 1',
       photo: 'https://instagram.ftpe7-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p750x750/144911413_2919592401642780_7768923501381819148_n.jpg?_nc_ht=instagram.ftpe7-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=GY2aGcXDKTMAX_mvXMT&tp=1&oh=696b15b1d96f0643c9a24ad297e8f4dc&oe=60481509'
     },
+    {
+      id: 9,
+      name: 'https://www.instagram.com/nerunagahama_/',
+      role: 'range 1',
+      photo: 'https://instagram.ftpe7-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/121620845_790021841838120_376941791958992908_n.jpg?_nc_ht=instagram.ftpe7-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=Af7MyFBxZ-4AX80PLdK&tp=1&oh=c9b3868c65650cdb47f78189d7d4437e&oe=604B1DD7'
+    },
+    {
+      id: 10,
+      name: 'https://www.instagram.com/mimiwor/',
+      role: 'range 1',
+      photo: 'https://instagram.ftpe7-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p750x750/147335359_888770068524861_4723157085475382747_n.jpg?_nc_ht=instagram.ftpe7-2.fna.fbcdn.net&_nc_cat=109&_nc_ohc=ZY2WZZtisgcAX-WNQQ9&tp=1&oh=2fdbe06ae93b7d9ed3502b24324e579b&oe=60491DBB'
+    },
+    {
+      id: 11,
+      name: 'https://www.instagram.com/minsun_v2/',
+      role: 'range 1',
+      photo: 'https://instagram.ftpe7-3.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/127329279_394294154956754_6675378381090568390_n.jpg?_nc_ht=instagram.ftpe7-3.fna.fbcdn.net&_nc_cat=102&_nc_ohc=xMBm1Acvxe0AX-KgUKB&tp=1&oh=bcbda1a90f2e793d0b85c97657d42d12&oe=6048C66C'
+    },
+    {
+      id: 12,
+      name: 'https://www.instagram.com/franfran1024/',
+      role: 'range 1',
+      photo: 'https://instagram.ftpe7-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p750x750/71101486_177539220072756_3405243450847978949_n.jpg?_nc_ht=instagram.ftpe7-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=l5R3KKCE_PkAX8umqgg&tp=1&oh=24242400697afad800468fb4701ae046&oe=604888D1'
+    },
   ];
 
   ngOnInit(): void {
