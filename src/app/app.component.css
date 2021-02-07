@@ -16,6 +16,28 @@ nav.nav-frame > main.nav-left {
   color: #FAEBD7;
 }
 
+/* unvisited link */
+main.nav-left a:link {
+  color: #FAEBD7;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+/* visited link */
+main.nav-left a:visited {
+  color: #FAEBD7;
+}
+
+/* mouse over link */
+main.nav-left a:hover {
+  color: #FAEBD7;
+}
+
+/* selected link */
+main.nav-left a:active {
+  color: #FAEBD7;
+}
+
 nav.nav-frame > main.nav-right {
   display: flex;
   justify-content: space-around;
@@ -25,11 +47,33 @@ nav.nav-frame > main.nav-right {
   color: #AEC7BB;
 }
 
-main.nav-right > div {
+/* unvisited link */
+main.nav-right a:link {
+  color: #AEC7BB;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+/* visited link */
+main.nav-right a:visited {
+  color: #AEC7BB;
+}
+
+/* mouse over link */
+main.nav-right a:hover {
+  color: #FAEBD7;
+}
+
+/* selected link */
+main.nav-right a:active {
+  color: #AEC7BB;
+}
+
+main.nav-right div {
   cursor: pointer;
   transition: 0.4s;
 }
 
-main.nav-right > div:hover {
+main.nav-right div:hover {
   color: #FAEBD7;
 }
