@@ -1,0 +1,49 @@
+aside.menu-frame {
+  position: fixed;
+  z-index: 9;
+  width: 0vw;
+  height: 100vh;
+  background-color: #2F4F4F;
+  color: #FAEBD7;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+aside.menu-frame > div.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13vw;
+  height: 2vw;
+  margin-top: 2vw;
+  font-size: 18px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+aside.menu-frame > div.menu-item:hover {
+  color: #fff;
+}
+
+/* unvisited link */
+div.menu-item a:link {
+  color: #FAEBD7;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+/* visited link */
+div.menu-item a:visited {
+  color: #FAEBD7;
+}
+
+/* mouse over link */
+div.menu-item a:hover {
+  color: #FFF;
+}
+
+/* selected link */
+div.menu-item a:active {
+  color: #FFF;
+}

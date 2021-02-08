@@ -1,0 +1,5 @@
+<aside class="menu-frame" [style.width]="isOpen ? '13vw': '0vw'">
+	<div class="menu-item" *ngFor="let item of menu; index as i">
+		<a [routerLink]="item.path">{{ item.displayName }}</a>
+	</div>
+</aside>

@@ -1,10 +1,14 @@
 nav.nav-frame {
+  position: fixed;
+  top: 0;
+  z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 3vw;
   background-color: #2F4F4F;
+  transition: 0.4s;
 }
 
 nav.nav-frame > main.nav-left {
@@ -14,6 +18,10 @@ nav.nav-frame > main.nav-left {
   width: 15vw;
   height: 100%;
   color: #FAEBD7;
+}
+
+main.nav-left > h2 {
+  cursor: pointer;
 }
 
 /* unvisited link */
@@ -76,4 +84,8 @@ main.nav-right div {
 
 main.nav-right div:hover {
   color: #FAEBD7;
+}
+
+section.page-section {
+  margin-top: 3vw;
 }

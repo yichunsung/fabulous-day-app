@@ -1,6 +1,6 @@
 <nav class="nav-frame">
   <main class="nav-left">
-    <a [routerLink]="'/'"><h2>{{ title }}</h2></a>
+    <h2 (click)="open()">{{ title }}</h2>
   </main>
   <main class="nav-right">
     <a [routerLink]="'/home'"><div> Home </div></a>
@@ -10,4 +10,7 @@
   </main>
 </nav>
 
-<router-outlet></router-outlet>
+<app-side-bar [menu]="menuList" [isOpen]="isOpenMenu"></app-side-bar>
+<section class="page-section">
+  <router-outlet></router-outlet>
+</section>
