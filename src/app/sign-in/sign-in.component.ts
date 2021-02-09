@@ -21,8 +21,14 @@ export class SignInComponent implements OnInit {
   	this.hero = this.signInService.getHeros();
   }
 
-  check(): void {
-  	console.log(this.hero);
+  async check(): Promise<void> {
+    try {
+      let res = await this.signInService.getTestData();
+      console.log(res.data);
+    } catch (err) {
+
+    }
+  	
   }
 
 }

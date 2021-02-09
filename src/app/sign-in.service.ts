@@ -32,4 +32,8 @@ export class SignInService {
   getHeros(): Hero[] {
     return this.heroList;
   }
+
+  getTestData(): Promise<any> {
+    return fetch('https://adata-api.elk-tree.site/api/page/home').then(res => res.json());
+  }
 }
