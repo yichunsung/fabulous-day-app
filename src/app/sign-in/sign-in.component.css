@@ -1,0 +1,92 @@
+main.sign-in-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 3vw);
+  background-image: url('https://lovebykim.com/wp-content/uploads/2019/01/fog-foggy-forest-4827.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+div.sign-in-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.8);
+}
+
+div.sign-in-panel > div.sign-in-form {
+  width: 30vw;
+  height: 50vh;
+}
+
+div.sign-in-panel > div.sign-in-info {
+  width: 30vw;
+  height: 50vh;
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.sign-in-rows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 26vw;
+}
+
+div.label {
+  color: #f1f1f1;
+  font-size: 18px;
+  margin-bottom: 0.5vw;
+}
+
+input.sign-in-input {
+  width: 20vw;
+  height: 1vw;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 1.5vw;
+}
+
+input.sign-in-input:focus {
+  outline: none;
+}
+
+div.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  color: #f1f1f1;
+  font-weight: bolder;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+div.button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+
+div.sign-in-info {
+  padding-top: 10px;
+  padding-left: 30px;
+  color: #fff;
+}
+
+div.sign-in-info > h1 {
+  margin-block-start: 0;
+  margin-top: 0;
+}
+
