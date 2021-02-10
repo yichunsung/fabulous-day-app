@@ -3,10 +3,9 @@
     <h2 (click)="open()">{{ title }}</h2>
   </main>
   <main class="nav-right">
-    <a [routerLink]="'/home'"><div> Home </div></a>
-    <a [routerLink]="'/hero'"><div> Hero </div></a>
-    <div> Settings </div>
-    <div> Profile </div>
+    <a *ngFor="let navItem of navMenuList; index as idx" [routerLink]="navItem.path">
+      <div>{{ navItem.displayName }}</div>
+    </a>
   </main>
 </nav>
 

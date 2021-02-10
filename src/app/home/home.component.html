@@ -1,28 +1,32 @@
 <header class="toolbar" role="banner"></header>
-<h1>
-  Home
-</h1>
-<div class="content" role="main">
+<section style="padding: 25px;">
+  <h1>
+    Home
+  </h1>
+  <div class="content" role="main">
 
-  <!-- Highlight Card -->
-  <div class="card highlight-card card-small">
-    {{ title }} app is running!
+    <!-- Highlight Card -->
+    <div class="card highlight-card card-small">
+      {{ title }}
+    </div>
+
+    <h2>MRT Station</h2>
+
+    <table>
+      <tr>
+        <th>Index</th>
+        <th>Line Name</th>
+        <th>Src Update Time</th>
+        <th>Line No</th>
+      </tr>
+      <tr *ngFor="let item of list; index as i">
+        <td>{{ i + 1 }}</td>
+        <td>{{ item.LineName.Zh_tw }}</td>
+        <td>{{ item.SrcUpdateTime | date: 'yyyy-MM-dd HH:mm:ss' }}</td>
+        <td>{{ item.LineNo }}</td>
+      </tr>
+    </table>
+    <br />
+    <button (click)="getHomeData()">Click</button>
   </div>
-
-  <h2>MRT Station</h2>
-
-  <table>
-    <tr>
-      <th>Index</th>
-      <th>Line Name</th>
-      <th>Src Update Time</th>
-      <th>Line No</th>
-    </tr>
-    <tr *ngFor="let item of list; index as i">
-      <td>{{ i + 1 }}</td>
-      <td>{{ item.LineName.Zh_tw }}</td>
-      <td>{{ item.SrcUpdateTime | date: 'yyyy-MM-dd HH:mm:ss' }}</td>
-      <td>{{ item.LineNo }}</td>
-    </tr>
-  </table>
-</div>
+</section>

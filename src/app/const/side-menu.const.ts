@@ -1,6 +1,6 @@
-import { SideMenu } from '../interfaces/side-menu.interface';
+import { Menu } from '../interfaces/menu.interface';
 
-export const sideMenu: SideMenu[] = [
+export const sideMenu: Menu[] = [
   {
     id: 1,
     path: '/home',

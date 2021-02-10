@@ -48,7 +48,7 @@ main.nav-left a:active {
 
 nav.nav-frame > main.nav-right {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   width: 85vw;
   height: 100%;
@@ -59,6 +59,7 @@ nav.nav-frame > main.nav-right {
 main.nav-right a:link {
   color: #AEC7BB;
   text-decoration: none;
+  margin-right: 3vw;
   transition: 0.4s;
 }
 

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 // Constant
 import { sideMenu } from './const/side-menu.const';
+import { navMenu } from './const/nav-menu.const';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,7 @@ export class AppComponent {
   title = 'fabulous day';
 
   isOpenMenu: boolean = false;
-
+  navMenuList = navMenu;
   menuList = sideMenu;
 
   open(): void {
