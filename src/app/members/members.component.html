@@ -1,23 +1,22 @@
-<section class="members-page-frame">
-  <table class="data-table">
-    <thead>
-      <tr>
-        <th scope="col">Name</th>
-        <th scope="col">E-mail</th>
-        <th scope="col">Job role</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">Nick Pettit</th>
-        <td>nick@example.com</td>
-        <td>Web Designer</td>
-      </tr>
-      <tr>
-        <th scope="row">Andrew Chalkley</th>
-        <td>andrew@example.com</td>
-        <td>Front-End Developer</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+<main class="members-page">
+  <section class="members-page-frame">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">E-mail</th>
+          <th scope="col">Job role</th>
+          <th scope="col">Operator</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let member of membersList; index as idx">
+          <td scope="row">{{ member.name }}</td>
+          <td>{{ member.email }}</td>
+          <td>{{ member.role }}</td>
+          <td><button> Edit </button></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</main>

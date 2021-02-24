@@ -12,12 +12,12 @@ export const sideMenu: Menu[] = [
     displayName: 'Projects'
   },
   {
-    id: 2,
-    path: '/home',
+    id: 3,
+    path: '/members',
     displayName: 'Members'
   },
   {
-    id: 3,
+    id: 4,
     path: '/sign-in',
     displayName: 'Sign In'
   }
